@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="misRazas">
+        <item>akita</item>
+        <item>dingo</item>
+        <item>hound</item>
+        <item>labrador</item>
+        <item>pug</item>
+    </string-array>
+</resources>

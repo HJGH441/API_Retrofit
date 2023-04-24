@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A584DF"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="30dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="370dp"
+        android:background="#A584DF"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Random Image"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imgRandom"
+            android:layout_width="match_parent"
+            android:layout_height="240dp" />
+
+        <TextView
+            android:id="@+id/txtURL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="URL:"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textStyle="italic" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Buscar Raza"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spBreeds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:entries="@array/misRazas" />
+
+    <Button
+        android:id="@+id/btnBuscar"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E91E63"
+        android:text="Buscar" />
+
+</LinearLayout>
